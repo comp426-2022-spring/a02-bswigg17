@@ -1,0 +1,22 @@
+{
+  "name": "coinflip",
+  "version": "1.0.0",
+  "description": "A Simple Package For Flipping Coins and Stuff!",
+  "main": "flip.js",
+  "type": "module",
+  "scripts": {
+    "flip": "node flip.js",
+	  "flips": "node flips.js",
+	  "guess-flip": "node guess-flip.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a02-bswigg17.git"
+  },
+  "author": "Seth Wiggins",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a02-bswigg17/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a02-bswigg17#readme"
+}
