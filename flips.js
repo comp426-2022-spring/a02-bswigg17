@@ -11,7 +11,16 @@ try {
     }
 }
 catch (error) {
-    console.log(countFlips(coinFlips(1)));
+    const obj = countFlips(coinFlips(1))
+    if (obj.heads == 1) {
+        delete obj['tails']; 
+        console.log(obj);
+    }
+    else {
+        delete obj['heads'];
+        console.log(obj)
+    }
+
 }
 
 
