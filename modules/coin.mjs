@@ -59,16 +59,8 @@ function coinFlips(flips) {
  */
 
 function countFlips(array) {
-  const return_obj = {heads: 0, tails: 0}
-  array.forEach(flip => {
-    switch (flip) {
-      case 'heads':
-        return_obj.heads += 1; 
-      case 'tails':
-        return_obj.tails += 1; 
-    }
-  }); 
-  return return_obj
+  return {heads: array.filter(x => x === 'heads').length,
+          tails: array.filter(x => x === 'tails').length}
 }
 
 /** Flip a coin!
